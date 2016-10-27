@@ -78,7 +78,7 @@ module.exports = {
     },
 
     getAll: function getAll() {
-      return request('connections?strategy=oauth2');
+      return request('connections?strategy=oauth1');
     },
 
     create: function create(data) {
