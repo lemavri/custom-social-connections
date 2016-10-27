@@ -4,7 +4,7 @@
   "description": "This application gives Auth0 customers the possibility to manage custom social connections in an easy way.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build-dev && node dist/custom-social-connections.js",
+    "start": "npm run build-dev && node dist/custom-social-connections-oauth1.js",
     "webpack": "webpack --config webpack.ui.config.js && webpack --config webpack.dev.config.js",
     "wt": "webpack --config webpack.ui.config.js && webpack --config webpack.wt.config.js",
     "clean": "npm install clean-css -g && rm -rf dist && mkdir -p dist/public && cleancss -o dist/public/custom-social-connections-1.1.9.min.css src/public/css/styles.css",
