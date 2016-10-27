@@ -2,7 +2,7 @@
   "title": "Custom Social Connections for OAuth1",
   "name": "custom-social-connections-oauth1",
   "version": "0.0.1",
-  "author": "auth0",
+  "author": "Mauricio Schneider",
   "description": "This application gives Auth0 customers the possibility to manage custom social connections in an easy way.",
   "type": "application",
   "logoUrl": "https://cdn.auth0.com/extensions/custom-social-connections/assets/logo.png",
